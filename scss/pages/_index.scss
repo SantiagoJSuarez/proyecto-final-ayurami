@@ -1,0 +1,51 @@
+/* Inicio  ---------------------------------------------------------------------- */
+.main-index {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: $color-terciario;
+
+  &__descripcion {
+    background-color: $color-secundario;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    line-height: 50px;
+  }
+  &__imgnegocio {
+    box-shadow: 5px 7px #977a50;
+    width: 80%;
+    border-radius: 50px;
+    border-width: 5px;
+    margin-left: 4px;
+  }
+
+  &__novedades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #d5b7a7;
+
+    margin-bottom: 10px;
+
+    &__titulo {
+      font-size: $tamaño-titulo;
+      font-style: italic;
+      text-shadow: 1px 1px white;
+    }
+
+    &__targeta {
+      font-size: 1.5rem;
+      line-height: 40px;
+
+      border-style: solid;
+      width: 95%;
+      text-align: center;
+      margin: 5px;
+      background-color: $color-terciario;
+    }
+    &__imgnovedades {
+      width: 40%;
+      margin-bottom: 5px;
+    }
+  }
+}

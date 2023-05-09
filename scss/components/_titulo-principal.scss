@@ -1,0 +1,10 @@
+/* Titulo principal de las paginas  ---------------------------------------------------------------------- */
+
+.titulo-principal {
+    background-color: $color-titulos;
+    text-align: center;
+    font-style: italic;
+    font-size: $tamaño-titulo;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px white;
+  }

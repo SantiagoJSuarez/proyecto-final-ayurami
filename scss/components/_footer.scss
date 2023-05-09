@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: $color-primario;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: auto;
+}
+.footer__derechos {
+  text-align: center;
+  font-style: italic;
+  font-size: $tamaño-texto;
+}
+
+.footer__logo {
+  border-radius: 10px;
+  box-shadow: 10px 2px 1px $color-terciario;
+  width: 100%;
+}
+
+.footer__siguenos {
+  padding-right: 20px;
+}

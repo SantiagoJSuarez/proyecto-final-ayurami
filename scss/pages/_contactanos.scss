@@ -1,0 +1,22 @@
+.contactanos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactanos__mapa {
+  width: 100%;
+  border-style: solid;
+  border-color: lightsalmon;
+  border-width: 10px;
+}
+
+
+.contactanos_local {
+    width: 90%;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 20px;
+    margin: 5px;
+  }

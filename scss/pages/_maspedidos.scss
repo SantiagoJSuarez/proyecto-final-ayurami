@@ -1,0 +1,51 @@
+//Productos mas pedidos.
+.descripcion {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  text-shadow: 1px 1px 1px orange;
+}
+
+.pedidos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  &__articulo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center;
+
+    background-color: lightblue;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+
+
+    //Animación del background del articulo
+    transition-property: all;
+    transition-duration: 1s;
+    &:hover {
+      background-color: black;
+      color: white;
+      
+    }
+
+    &__img {
+      width: 200px;
+      height: 200px;
+      margin-right: 5px;
+      border-radius: 10px;
+
+      //Animación Imagenes de los productos mas vendidos
+      transition-property: all;
+      transition-duration: 1s;
+      &:hover {
+        width: 240px;
+        height: 240px;
+        box-shadow: 4px 4px 4px 1px white;
+      }
+    }
+  }
+}
