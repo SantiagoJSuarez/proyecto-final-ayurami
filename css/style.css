@@ -400,6 +400,11 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .contactanos__informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media (min-width: 769px) and (max-width: 1300px) {
   header {
@@ -414,6 +419,11 @@ footer {
   .pedidos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .contactanos__informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

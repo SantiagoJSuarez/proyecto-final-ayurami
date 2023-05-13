@@ -126,6 +126,12 @@
       align-items: center;
     }
   }
+
+  .contactanos__informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 //Media Query : Desktop
@@ -145,6 +151,12 @@
   .pedidos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contactanos__informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   // .sobrenosotros {
