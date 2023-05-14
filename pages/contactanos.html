@@ -51,9 +51,11 @@
     <main>
       <section class="contactanos">
         <article>
-          <div class="contactanos__informacion">
-            <p><b>Puedes contantarnos por medio de :</b></p>
+          <p class="contactanos__descripcion">
+            <b>Puedes contantarnos por medio de :</b>
+          </p>
 
+          <div class="contactanos__informacion">
             <ul class="contactanos__lista">
               <li><b>Telefono:</b> +57 30220126</li>
               <li><b>Correo: </b> ayurami@gmail.com</li>
@@ -79,6 +81,28 @@
           />
         </article>
       </section>
+
+      <section class="Mensaje">
+        <form action=""></form>
+        <div>
+          <p>Escribenos un mensaje:</p>
+        </div>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" type="text" />
+        </div>
+
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" cols="30"></textarea>
+        </div>
+
+        <div>
+          <label for="enviar"></label>
+          <input type="submit" id="enviar" value="Enviar Mensaje" />
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -93,9 +117,13 @@
       </div>
       <div class="footer__siguenos">
         <h4>Siguenos en</h4>
-        <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
+        <ul class="footer__iconolist">
+          <li >
+            <img  class="footer__icono" src="../img/ico/instagram.webp" alt="icono_facebook" />
+          </li>
+          <li >
+            <img class="footer__icono" src="../img/ico/facebook.ico" alt="icono_facebook" />
+          </li>
         </ul>
       </div>
     </footer>

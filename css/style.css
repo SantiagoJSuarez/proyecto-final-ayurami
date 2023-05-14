@@ -92,6 +92,10 @@ footer {
   padding-right: 20px;
 }
 
+.footer__icono {
+  width: 30px;
+}
+
 /* Titulo principal de las paginas  ---------------------------------------------------------------------- */
 .titulo-principal {
   background-color: #b6a373;
@@ -279,6 +283,11 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.contactanos__descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .contactanos__mapa {
   width: 100%;
@@ -344,6 +353,11 @@ footer {
   .pedidos__articulo {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactanos__informacion {
+    display: flex;
     justify-content: center;
     align-items: center;
   }

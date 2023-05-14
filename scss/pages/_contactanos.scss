@@ -4,6 +4,12 @@
   justify-content: center;
   align-items: center;
 
+  &__descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 .contactanos__mapa {
@@ -22,3 +28,4 @@
     border-radius: 20px;
     margin: 5px;
   }
+
